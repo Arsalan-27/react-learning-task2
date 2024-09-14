@@ -1,0 +1,28 @@
+hooks in react :- hooks are the inbuilt functions inn react .
+
+useState :- it is used to create the state variable and the function to update the state variable .
+Adding state to a component
+Updating state based on the previous state
+it contains an array having a (variable and function {[variable,function]})<-- like this
+
+useCallback :- it is used to memorize the function (jitna ho sake utna memorize krta hai) , the useable part/thread/memory of the function is memorized . it contains function and dependencies
+Skipping re-rendering of components
+Updating state from a memoized callback
+Preventing an Effect from firing too often
+Optimizing a custom Hook
+
+useEffect :- when our page loads it is called at first , if the edpendencies are changed it is called again or anything changed it is called again .
+
+
+useRef :- it is used to create the reference of the element .
+
+text-fuchsia-700
+
+
+notes:--
+
+//In react we use link tag in place of <a> tag because <a> tag reloads the page which is not good for performance.
+//link tag don't relods the page and it is faster than <a> tag.
+//link tag is used for internal routing and <a> tag is used for external routing.
+//in link tag we have (to) as an attribute
+// navlink is used for internal routing and additinally it emphasis on single link (like home page in the navbar)
